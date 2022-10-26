@@ -18,6 +18,9 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Playfair+Display:ital,wght@1,700&family=Raleway:wght@300;400;700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -25,7 +28,68 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+
+  <header class="header">
+    <div class="contenedor contenido-header">
+      <div class="barra">
+        <div class="logo">
+          <h1 class="nombre-sitio">
+            Arquitectura<span>Bosque</span>
+          </h1>
+        </div>
+        <div class="contacto">
+          <a class="telefono" href="tel:+573016751999">+573016751999</a>
+          <nav class="navegacion">
+            <a class="link" href="#">Inicio</a>
+            <a class="link" href="#">Nosostros</a>
+            <a class="link" href="#">Modelos</a>
+            <a class="link" href="#">Galeria</a>
+            <a class="link" href="#">Contactos</a>
+          </nav>
+        </div>
+      </div>
+      <div class="slogan">
+        <h1>Tu casa en el bosque</h1>
+        <p>construimos la casa de tus sueños</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="contenedor mt-5 nosotros">
+    <div class="contenido-nosotros">
+      <h2>Sobre nosotros</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, architecto cum, cumque dicta earum e.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, architecto cum, cumque dicta earum e.</p>
+
+    </div>
+  </section>
+
+  <main class="contenedor mt-5">
+    <h2>Conoce nuestros 3 modelos</h2>
+    <div class="modelo basico">
+      <div class="contenido-modelo">
+        <h3>Modelo Basico</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus atque facere nihil sunt? Eaque est eum facere fuga, incidunt ipsam itaque nesciunt, omnis perspiciatis quas qui quisquam repellat ullam. Laborum?</p>
+        <a href="#" class="btn">Mas informacion</a>
+      </div>
+    </div> <!--.modelo-->
+    <div class="modelo premier">
+      <div class="contenido-modelo">
+        <h3>Modelo Premier</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus atque facere nihil sunt? Eaque est eum facere fuga, incidunt ipsam itaque nesciunt, omnis perspiciatis quas qui quisquam repellat ullam. Laborum?</p>
+        <a href="#" class="btn">Mas informacion</a>
+      </div>
+    </div> <!--.modelo-->
+    <div class="modelo elite">
+      <div class="contenido-modelo">
+        <h3>Modelo Elite</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus atque facere nihil sunt? Eaque est eum facere fuga, incidunt ipsam itaque nesciunt, omnis perspiciatis quas qui quisquam repellat ullam. Laborum?</p>
+        <a href="#" class="btn">Mas informacion</a>
+      </div>
+    </div> <!--.modelo-->
+  </main>
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
